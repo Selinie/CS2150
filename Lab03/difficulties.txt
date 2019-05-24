@@ -1,0 +1,11 @@
+// Selinie Wang (jw6qe@virginia.edu)
+// September 19, 2018
+// difficulties.txt
+
+1. In the testPostFix, for the negative part of the code, I did not catch that you can only use '-' instead of "-" until later on. I also accidentally put the cout code in the while loop so it kept returning all the digits (showing all the work). I fixed that by putting the cout code outside of the while loop to only show the expected output answer.
+
+2. I had to go to the ta to figure out a segmentation fault issue because when I pressed control + D, it gave me a seg fault issue. Turns out instead of setting while (cin >> s), I just set while (cin).
+
+3. The operator methods were pretty easy to write, and I didn't know you had to create pushNum method until I read piazza so it took me a hard second to realize.
+
+4. For the postlab, it kept on giving me so many errors involving stack<int> and at first I didn't know why it was an unknown identifier. Then I realized that stack<int> was a #include stack thing so I changed it into just stack from the stack.h file.
